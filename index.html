@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt|Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="gameArea">
+		<section class="heading">
+			<h2>Question #<span class="questionNumber">1</span></h2>
+		</section>
+		<section class="question">
+			<div class="questionBox">
+				<p>Who is the greatest NBA player of all time?</p>
+			</div>
+		</section>
+		<section class="list">
+			<ul class="answerList">
+				<li><input type="radio" name="option" class="option" value="0"><span class="answers">Michael Jordan</span></li>
+				<li><input type="radio" name="option" class="option" value="0"><span class="answers">Magic Johnson</span></li>
+				<li><input type="radio" name="option" class="option" value="0"><span class="answers">Lebron James</span></li>
+				<li><input type="radio" name="option" class="option" value="0"><span class="answers">Kobe Bryant</span></li>
+			</ul>
+		</section>
+		<button type="button">SUBMIT ANSWER</button>
+	</div>
+
+	<div class="gameArea hidden">
+		<h2>Question #<span class="questionNumber">1</span></h2>
+		<p>You guessed <span class="result">RIGHT!</span></p>
+		<p>Michael Jordan is the greatest NBA player of all time. But let's not forget it's not about who's the best player, but who's got the best TEAM.</p>
+		<button type="button">NEXT QUESTION</button>
+	</div>
+
+	<div class="gameArea hidden">
+		<h2>You got <span class="correct">5<span> out of 5 correct!</h2>
+		<button type="button">SHARE THIS QUIZ WITH A FRIEND</button>
+	</div>
+</body>
+</html>

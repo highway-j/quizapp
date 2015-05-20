@@ -1,0 +1,61 @@
+body {
+	background: url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.gameArea {
+	margin: 200px auto 0 auto;
+  	padding: 50px 0 0 0;
+  	background-color: rgba(255, 255, 255, 0.9);
+  	height: 400px;
+  	max-width: 40em;
+}
+
+h2 {
+	font-family: 'Rock Salt';
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.list {
+	height: 110px;
+}
+
+ul {
+  	list-style: none;
+  	width: 65%;
+  	float: right;
+  	text-align: left;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type="radio"] {
+	margin-right: 5em;
+}
+
+button {
+	width: 65%;
+	height: 50px;
+	margin: 25px auto 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	background-color: white;
+	border-color: black;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
