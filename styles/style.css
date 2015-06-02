@@ -1,16 +1,16 @@
 body {
-	background: url("background.jpg");
+	background: url("background2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 }
 
 .gameArea {
-	margin: 200px auto 0 auto;
+	margin: 150px auto 0 auto;
   	padding: 50px 0 0 0;
   	background-color: rgba(255, 255, 255, 0.9);
-  	height: 400px;
-  	max-width: 40em;
+  	height: 500px;
+  	max-width: 45em;
 }
 
 h2 {
