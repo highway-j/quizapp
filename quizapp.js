@@ -74,7 +74,6 @@ $(document).ready(function(){
     });
 
 
-    // RETRY FEATURE INCOMPLETE
     $('button#retry').click(function(){
         currentQuestion = 0;
         numberCorrect = 0;
